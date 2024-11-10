@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <lottie-player src="https://lottie.host/ea952e2a-ba0a-404e-b599-359ac47b9054/Gg3E32I6ed.json" 
+                           speed="0.4" 
+                           style="width: 70px; height: 70px;" loop autoplay></lottie-player>
+            <a class="navbar-brand ms-2" href="#home">404 ICE CREAM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Beranda</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">Tentang Kami</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            produk
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="ice-cream-box.html">Ice Cream Untuk Acara</a></li>
+                            <li><a class="dropdown-item" href="cone-ice.html">Cone Ice Cream</a></li>
+                            <li><a class="dropdown-item" href="ice-cream-cup.html">ICe Cream cup</a></li>
+                            <li><a class="dropdown-item" href="ice-cream-stick.html">Ice cream stick</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#gallery">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#reviews">Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- order Section -->
+    <section id="order" class="container my-5">
+        <section class="order" id="order">
+            <div class="container py-5">
+                <h1 class="heading text-center mb-4">Pesan Sekarang</h1>
+                <form action="">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="inputBox">
+                                <label for="fullname">Nama Lengkap</label>
+                                <input type="text" id="fullname" placeholder="Masukkan nama Anda" class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="icecream-name">Nama Es Krim</label>
+                                <input type="text" id="icecream-name" placeholder="Es krim yang Anda inginkan"
+                                    class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="order-details">Detail Pesanan</label>
+                                <input type="text" id="order-details" placeholder="Topping" class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="address">Alamat Anda</label>
+                                <textarea id="address" placeholder="Masukkan alamat Anda" class="form-control"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mb-4">
+                            <div class="inputBox">
+                                <label for="phone-number">Nomor Telepon</label>
+                                <input type="number" id="phone-number" placeholder="Masukkan nomor telepon Anda"
+                                    class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="quantity">Jumlah</label>
+                                <input type="number" id="quantity" placeholder="Berapa yang Anda inginkan"
+                                    class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="order-time">Kapan Anda Inginkan</label>
+                                <input type="datetime-local" id="order-time" class="form-control">
+                            </div>
+
+                            <div class="inputBox">
+                                <label for="payment-method">Metode Pembayaran</label>
+                                <select id="payment-method" class="form-select">
+                                    <option value="credit">Kartu Kredit</option>
+                                    <option value="paypal">PayPal</option>
+                                    <option value="cash">Bayar di Tempat</option>
+                                </select>
+                            </div>
+
+                            <div class="inputBox">
+                                <label>Alamat Kami</label>
+                                <iframe class="map w-100"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.207204142263!2d110.37315971393517!3d-7.795579779133201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5869c01317e3%3A0x113f1a5f41c6f8ef!2sYogyakarta!5e0!3m2!1sen!2sid!4v1635561169048!5m2!1sen!2sid"
+                                    allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submit-order" class="btn btn-primary">Pesan Sekarang</button>
+
+                </form>
+            </div>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>

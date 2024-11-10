@@ -1,0 +1,311 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Custom */
+.navbar {
+    background-color: #f4a261;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #2a9d8f !important;
+}
+
+.nav-link {
+    color: #2a9d8f !important;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f4a261;
+    color: #fff;
+}
+
+.about {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.about .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about .content h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.about .content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* review */
+
+.reviews {
+    background-color: #f8f9fa;
+}
+
+.reviews .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.reviews .stars {
+    color: #f39c12;
+}
+
+.reviews .swiper-slide {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    transition: transform 0.3s;
+}
+
+
+/* menu */
+.menu {
+    background-color: #f8f9fa;
+}
+
+.menu .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.menu .box {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.menu .box:hover {
+    transform: scale(1.05);
+}
+
+.menu .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu .price {
+    font-size: 1.25rem;
+    color: #d9534f;
+    margin: 10px 0;
+}
+
+.menu .price span {
+    color: #6c757d;
+}
+
+/* order */
+
+.order {
+    background-color: #f8f9fa;
+}
+
+.order .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.inputBox {
+    margin-bottom: 1.5rem;
+}
+
+.inputBox label {
+    font-weight: bold;
+}
+
+.map {
+    height: 200px;
+    border: none;
+}
+
+/* fotter */
+.footer {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer i {
+    color: #333;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer .social-icons i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.footer .text-center {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.footer{
+    background: url(../images/footer.png);
+    margin-top: 2rem;
+    text-align: center;
+}
+/* text home */
+.custom-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #5a4632;
+    /* Warna teks */
+    text-align: left;
+    max-width: 40%;
+    /* Membatasi lebar teks */
+}
+
+/* Styling untuk judul teks besar */
+.carousel-title {
+    font-size: 3rem;
+    /* Ukuran teks besar untuk layar besar */
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling untuk subtitle */
+.carousel-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5a4632;
+    margin-top: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Media Query untuk tampilan tablet */
+@media (max-width: 768px) {
+    .carousel-title {
+        font-size: 2rem;
+    }
+    .carousel-subtitle {
+        font-size: 1rem;
+    
+    }
+}
+
+/* Media Query untuk tampilan mobile */
+@media (max-width: 576px) {
+    .carousel-title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-subtitle {
+        font-size: 0.9rem;
+    }
+}
+
+/* cone */
+.image-full-width {
+    width: 100%;
+    overflow: hidden;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* modif card */
+.menu .box .image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .box .image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* review */
+.reviews .slide {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px; 
+    text-align: center;
+}
+
+.reviews img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.reviews .stars i {
+    color: #ffc107;
+}
+
+lottie-player {
+    background: transparent !important; /* Paksakan transparan */
+}
